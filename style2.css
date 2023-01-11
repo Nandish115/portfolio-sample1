@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Rubik+Bubbles&display=swap');
+body{
+    text-align: center;
+    margin: 0px;
+    /* to avoid the small gap that exists in the left side */
+}
+.menu{
+    background-color: blueviolet;
+    position: fixed; 
+    /* Position is used to fix the position of the navigation bar while scrolling */
+    width: 100%;
+    top: 0;
+    /* setting this will help in setting the position to 0 */
+    margin-top: 0;
+    /* helps in deleting the top margin as well */
+    z-index: 10;
+    /* to avoid overlaping while scrolling */
+}
+.links{
+    display: inline;
+    /* tobring the unordered list of the nav bar inline */
+    font-size: 30px;
+    margin-left: 60px;
+}
+.nav{
+    text-decoration: none;
+    color: beige;
+}
+/* ------------------till now is the styling of the nav bar--------------- */
+
+/* psuedo class --> Syntax= selector:pseudo-clss{property:value;} */
+.nav:hover{
+    font-size: 35px;
+    color: chartreuse;
+}
+html{
+    scroll-behavior: smooth;
+    /* for smooth movement of the page */
+}
+#profile{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* for circular border */
+}
+#title{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 80px;
+    color: rgb(205, 44, 164);
+}
+h3{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home{
+    background-image: linear-gradient(to bottom right,aqua,yellow,aquamarine);
+}
